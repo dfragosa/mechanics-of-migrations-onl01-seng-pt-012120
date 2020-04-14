@@ -20,7 +20,7 @@ ActiveRecord::Base.establish_connection(
     id INTEGER PRIMARY KEY,
     name TEXT,
     genre TEXT,
-    age INTEGER
+    age INTEGER,
     hometown TEXT
     )
     SQL
